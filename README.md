@@ -16,7 +16,7 @@ Welcome to the Movie Series Analysis project! This project allows users to view 
 - **Backend:** Node.js, Express
 - **Database:** MongoDB
 - **Authentication:** JSON Web Tokens (JWT), bcrypt
-- **Testing:** [Your preferred testing libraries here]
+- **Testing:** [Your preferred testing libraries here] [Not yet decided]
 
 ## Getting Started
 
@@ -39,45 +39,32 @@ Welcome to the Movie Series Analysis project! This project allows users to view 
 
 ### Installing Dependencies
 1. Install DotEnv package
-    ```npm install dotenv
+    ```
+    npm install dotenv
     ```
 2. Navigate to the frontend directory:
-    ```cd client
+    ```
+    cd client
     ```
 3. Install frontend dependencies:
-    ```npm install
+    ```
+    npm install
     ```
 4. Go back to the root directory:
-    ```cd ..
+    ```
+    cd ..
     ```
 5. Navigate to the backend directory:
-    ```cd server
+    ```
+    cd server
     ```
 6. Install backend dependencies:
-    ```npm install
     ```
-
-### Running the Application
-
-#### Running the Frontend
-In the /client directory, start the React application:
-    ```npm start
+    npm install
     ```
-The frontend will be accessible at http://localhost:3000.
-
-#### Running the Backend
-In the /server directory, start the Node.js server:
-    ```npm start
-    ```
-The backend API will be accessible at http://localhost:5000.
-
-#### Running Both Applications
-You can also run both the frontend and backend simultaneously from the root directory by using:
-```npm start
-```
-
 
 ## Project Structure
+```
 /movie-series-analysis
 │
 ├── /client             # Frontend (React)
@@ -99,21 +86,46 @@ You can also run both the frontend and backend simultaneously from the root dire
 ├── README.md           # Project overview and documentation
 └── docker-compose.yml  # Docker setup (optional)
 
+```
+
+## Running the Application
+
+#### Running the Frontend
+In the /client directory, start the React application:
+    ```
+    npm start
+    ```
+The frontend will be accessible at http://localhost:3000.
+
+#### Running the Backend
+In the /server directory, start the Node.js server:
+    ```
+    npm start
+    ```
+The backend API will be accessible at http://localhost:5000.
+
+#### Running Both Applications
+You can also run both the frontend and backend simultaneously from the root directory by using:
+    ```
+    npm start
+    ```
+
 ## API Documentation
-Provide documentation for your API endpoints here(not started at this stage), including:
+Provide documentation for your API endpoints here[Not yet decided], including:
 
 GET /api/movies - Retrieves all movies.
+<br>
 POST /api/reviews - Submits a review.
 
 
 ## Contributing
 If you would like to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create your feature branch (git checkout -b feature/AmazingFeature).
-Commit your changes (git commit -m 'Add some AmazingFeature').
-Push to the branch (git push origin feature/AmazingFeature).
-Open a Pull Request.
+1. Fork the repository.
+1. Create your feature branch (git checkout -b feature/AmazingFeature).
+1. Commit your changes (git commit -m 'Add some AmazingFeature').
+1. Push to the branch (git push origin feature/AmazingFeature).
+1. Open a Pull Request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
