@@ -1,11 +1,20 @@
 {
-  "devDependencies": {
-    "concurrently": "^9.0.1"
-  },
+  "name": "movie-series-analysis",
+  "version": "1.0.0",
+  "description": "00# Movie Series Analysis",
+  "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run start --prefix server\" \"npm run start --prefix client\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "dotenv": "^16.4.5"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Not-Darshil/movie-series-analysis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Not-Darshil/movie-series-analysis/issues"
+  },
+  "homepage": "https://github.com/Not-Darshil/movie-series-analysis#readme"
 }
