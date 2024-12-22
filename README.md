@@ -1,4 +1,4 @@
-00# Movie Series Analysis
+# Movie Series Analysis
 
 Welcome to the Movie Series Analysis project! This project allows users to view character networks of various series and submit reviews, which will be analyzed for sentiment. 
 
