@@ -43,7 +43,7 @@ class NamedEntityRecognizer:
 
         if save_path is not None and os.path.exists(save_path):
             df = pd.read_csv(save_path)
-            df['ners']=df['ners'].apply(lambda x: literal_eval(x) if isinstance(x.str) else x )
+            df['ners']=df['ners'].apply(lambda x: literal_eval(x) if isinstance(x,str) else x )
             return df
         
         # Run Inference 
